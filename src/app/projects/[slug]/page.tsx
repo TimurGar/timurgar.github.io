@@ -1,18 +1,19 @@
-import { Container } from "@/components/Container";
-import { Heading } from "@/components/Heading";
-import { Highlight } from "@/components/Highlight";
-import { Paragraph } from "@/components/Paragraph";
-import { SingleProduct } from "@/components/Product";
-import { Products } from "@/components/Products";
 import { products } from "@/constants/products";
 import { Product } from "@/types/products";
+import { Container } from "@/components/Container";
+import { SingleProduct } from "@/components/Product";
 import { Metadata } from "next";
-import Image from "next/image";
 import { redirect } from "next/navigation";
 
 type Props = {
   params: { slug: string };
 };
+
+export async function generateStaticParams() {
+  return products.map((product: Product) => ({
+    slug: product.slug,
+  }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const slug = params.slug;
