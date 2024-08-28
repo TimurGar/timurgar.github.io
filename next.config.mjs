@@ -3,18 +3,25 @@ import nextMDX from "@next/mdx";
 import remarkGfm from "remark-gfm";
 import rehypePrism from "@mapbox/rehype-prism";
 
-const repositoryName = "timurgar.github.io";
 
 const nextConfig = {
   images: {
-    domains: ["images.unsplash.com", "res.cloudinary.com"],
+    // domains: ["images.unsplash.com", "res.cloudinary.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+      },
+    ],
   },
   experimental: {
     mdxRs: true,
   },
-  assetPrefix: `/${repositoryName}/`,
-  basePath: `/${repositoryName}`,
-  output: "export",
+  // output: "export",
 };
 
 const withMDX = nextMDX({
