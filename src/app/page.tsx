@@ -3,6 +3,8 @@ import { Heading } from "@/components/Heading";
 import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
 import { Products } from "@/components/Products";
+import { Analytics } from "@vercel/analytics/react"
+
 // import { TechStack } from "@/components/TechStack";
 // import Image from "next/image";
 
@@ -33,6 +35,7 @@ export default function Home() {
       </Heading>
       <Products />
       {/* <TechStack /> */}
+      <Analytics />
     </Container>
   );
 }
