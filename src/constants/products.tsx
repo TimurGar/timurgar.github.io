@@ -5,32 +5,14 @@ export const products = [
     description:
       "Student-built marketplace for selling and exchanging course textbooks.",
     thumbnail: "/images/wurm-1.png",
-    images: [
-      "/images/wurm-1.png",
-      "/images/wurm-2.png",
-    ],
-    stack: ["React","Node.js", "Mongo DB", "Express", "Tailwindcss"],
+    images: ["/images/wurm-1.png", "/images/wurm-2.png"],
+    stack: ["React", "Node.js", "Mongo DB", "Express", "Tailwindcss"],
     slug: "wurm",
+    robotics: false,
     content: (
       <div>
-        {/* <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p> */}
-        <p></p>
-        {" "}
+        {}
+        <p></p>{" "}
       </div>
     ),
   },
@@ -47,26 +29,11 @@ export const products = [
     ],
     stack: ["Flask", "Python", "SQLAlchemy", "Bootstrap"],
     slug: "keeper",
+    robotics: false,
     content: (
       <div>
-        {/* <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "} */}
-        <p></p>
-        {" "}
+        {}
+        <p></p>{" "}
       </div>
     ),
   },
@@ -83,61 +50,53 @@ export const products = [
     ],
     stack: ["KivyMD", "Python", "SQL", "Material Design"],
     slug: "dtrack",
+    robotics: false,
     content: (
       <div>
-        {/* <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "} */}
-        <p></p>
-        {" "}
+        {}
+        <p></p>{" "}
       </div>
     ),
   },
-  // {
-  //   href: "https://gomoonbeam.com",
-  //   title: "Moonbeam",
-  //   description:
-  //     "Never write from scratch again with Moonbeam, your AI first writing tool",
-  //   thumbnail: "/images/sidefolio-moonbeam.png",
-  //   images: [
-  //     "/images/sidefolio-moonbeam.png",
-  //     "/images/sidefolio-moonbeam-2.png",
-  //   ],
-  //   stack: ["Nextjs", "Tailwindcss"],
-  //   slug: "moonbeam",
-  //   content: (
-  //     <div>
-  //       <p>
-  //         Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-  //         dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-  //         cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-  //         cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-  //         non cupidatat duis esse velit ut culpa et.{" "}
-  //       </p>
-  //       <p>
-  //         Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-  //         Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-  //         sit aute fugiat incididunt nostrud consequat proident fugiat id.
-  //         Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-  //         reprehenderit. Cillum Lorem veniam eu magna exercitation.
-  //         Reprehenderit adipisicing minim et officia enim et veniam Lorem
-  //         excepteur velit adipisicing et Lorem magna.
-  //       </p>{" "}
-  //     </div>
-  //   ),
-  // },
-  
+
+  // ROBOTICS PROJECTS
+  {
+    href: "",
+    title: "Autonomous Environment Mapper",
+    description:
+      "The robot is built using an Arduino microcontroller, and programmed in C language. It's equipped with ultrasonic and color sensors to detect obstacles and navigate through its environment while simultaneously mapping the area.",
+    thumbnail: "/images/car-robot.jpg",
+    images: ["/images/car-robot.jpg"],
+    stack: ["Arduino", "C"],
+    slug: "robot",
+    robotics: true,
+    content: (
+      <div>
+        {}
+        <p></p>{" "}
+      </div>
+    ),
+  },
+
+  {
+    href: "",
+    title: "FDM 3D Printers",
+    description:
+      "I built three different 3D printers (with Scara, Hbot, CoreXY kinematics) from scratch using an Arduino microcontroller with RAMPS and programmed it in C language with a help of Marlin Open Source Libary. The besides printing with different types of filament, the printers are cable of auto bed leveling, and filament runout detection.",
+    thumbnail: "/images/scara.jpg",
+    images: [
+      "/images/scara.jpg",
+      "/images/new-3D-printer.jpg",
+      "/images/old-3D-printer.jpg",
+    ],
+    stack: ["Arduino", "C", "RAMPS" ,"Marlin"],
+    slug: "printers",
+    robotics: true,
+    content: (
+      <div>
+        {}
+        <p></p>{" "}
+      </div>
+    ),
+  },
 ];

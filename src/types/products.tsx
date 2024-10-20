@@ -1,4 +1,5 @@
 export type Product = {
+  robotics: boolean | undefined;
   title: string;
   description: string;
   thumbnail: string;
