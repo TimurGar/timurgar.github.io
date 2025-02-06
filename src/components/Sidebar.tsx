@@ -36,7 +36,10 @@ export const Sidebar = () => {
               <SidebarHeader />
               <Navigation setOpen={setOpen} />
             </div>
-            <Badge href="https://drive.google.com/file/d/1e6pLoyg_SikJVCwAGuz6-htI30RscKY6/view?usp=sharing" text="Read Resume" />
+            <Badge
+              href="https://drive.google.com/file/d/1xgrGWHRjmPb07AMzDprXHV8uiV-T-H3r/view?usp=sharing"
+              text="Read Resume"
+            />
           </motion.div>
         )}
       </AnimatePresence>
