@@ -1,6 +1,6 @@
 export const products = [
   {
-    href: "https://github.com/TimurGar",
+    href: "https://wurm.vercel.app/",
     title: "Wurm (Book Sharing App)",
     description:
       "Student-built marketplace for selling and exchanging course textbooks.",
@@ -89,7 +89,7 @@ export const products = [
       "/images/new-3D-printer.jpg",
       "/images/old-3D-printer.jpg",
     ],
-    stack: ["Arduino", "C", "RAMPS" ,"Marlin"],
+    stack: ["Arduino", "C", "RAMPS", "Marlin"],
     slug: "printers",
     robotics: true,
     content: (
