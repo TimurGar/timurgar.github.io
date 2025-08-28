@@ -1,7 +1,7 @@
 export const products = [
   {
     href: "https://spiderbytesv2.vercel.app/",
-    title: "SpiderBytesV2 (Campus News & Events System)",
+    title: "SpiderBytesV2",
     description:
       "Modernized campus news & events email system for University of Richmond, now powered by AI and automation.",
     thumbnail: "/images/sbv2-1.png",
@@ -12,7 +12,7 @@ export const products = [
       "/images/sbv2-4.png",
       "/images/sbv2-5.png",
     ],
-    stack: ["Python", "React", "Google Gemini", "Mongo DB", "Git Actions"],
+    stack: ["Python", "React", "Google Gemini", "Mongo DB", "Github Actions"],
     slug: "spiderbytesv2",
     robotics: false,
     content: (

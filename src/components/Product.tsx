@@ -29,9 +29,10 @@ export const SingleProduct = ({ product }: { product: Product }) => {
         <Image
           src={activeImage}
           alt="thumbnail"
-          height="1000"
-          width="1000"
-          className="rounded-md object-contain"
+          width={800}
+          height={0}
+          sizes="(max-width: 768px) 100vw, 800px"
+          className="rounded-md object-contain w-full h-auto max-h-[600px]"
         />
         <div className="absolute bottom-0 bg-white h-40 w-full [mask-image:linear-gradient(to_bottom,transparent,white)]" />
       </motion.div>
