@@ -4,8 +4,11 @@ export const products = [
     title: "SpiderBytesV2",
     description:
       "Modernized campus news & events email system for University of Richmond, now powered by AI and automation.",
-    thumbnail: "/images/sbv2-1.png",
+    thumbnail: "/images/sbv2-7.png",
     images: [
+      "/images/sbv2-7.png",
+      "/images/sbv2-8.png",
+      "/images/sbv2-6.png",
       "/images/sbv2-1.png",
       "/images/sbv2-2.png",
       "/images/sbv2-3.png",
