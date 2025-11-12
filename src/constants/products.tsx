@@ -1,5 +1,27 @@
 export const products = [
   {
+    href: "https://getunify.vercel.app/",
+    title: "Unify",
+    description:
+      "Unify is an AI-powered platform that streamlines how universities review, approve, and share campus events and announcements, reducing manual work and improving communication between the university and its students.",
+    thumbnail: "/images/unify2.png",
+    images: [
+      "/images/unify1.png",
+      "/images/unify2.png",
+      "/images/unify3.png",
+      "/images/unify4.png",
+    ],
+    stack: ["Python", "React", "Google Gemini", "Mongo DB", "Github Actions"],
+    slug: "unify",
+    robotics: false,
+    content: (
+      <div>
+        {}
+        <p></p>{" "}
+      </div>
+    ),
+  },
+  {
     href: "https://spiderbytesv2.vercel.app/",
     title: "SpiderBytesV2",
     description:
