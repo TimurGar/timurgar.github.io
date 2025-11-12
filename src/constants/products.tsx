@@ -2,20 +2,8 @@ export const products = [
   {
     href: "https://spiderbytesv2.vercel.app/",
     title: "SpiderBytesV2",
-    description: (
-      <>
-        Modernized campus news & events email system for University of Richmond,
-        now powered by AI and automation.{" "}
-        <a
-          href="https://www.linkedin.com/posts/timur-garifullin_python-react-ai-activity-7389381585206411264-KLtL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD_dROYBCwSQ_E0VAarm48zob3YCK-UoSLo"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 hover:text-blue-800 underline"
-        >
-          Learn more
-        </a>
-      </>
-    ),
+    description:
+      "Modernized campus news & events email system for University of Richmond, now powered by AI and automation.",
     thumbnail: "/images/sbv2-7.png",
     images: [
       "/images/sbv2-7.png",

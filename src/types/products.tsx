@@ -1,7 +1,7 @@
 export type Product = {
   robotics: boolean | undefined;
   title: string;
-  description: string | React.ReactNode;
+  description: string;
   thumbnail: string;
   images: string[];
   href: string;
