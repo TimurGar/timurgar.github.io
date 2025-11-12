@@ -53,7 +53,14 @@ export const products = [
     description:
       "Student-built marketplace for selling and exchanging course textbooks.",
     thumbnail: "/images/wurm-1.png",
-    images: ["/images/wurm-1.png", "/images/wurm-2.png"],
+    images: [
+      "/images/wurm-1.png",
+      "/images/wurm4.png",
+      "/images/wurm5.png",
+      "/images/wurm6.png",
+      "/images/wurm-2.png",
+      "/images/wurm3.png",
+    ],
     stack: ["React", "Node.js", "Mongo DB", "Express", "Tailwindcss"],
     slug: "wurm",
     robotics: false,
