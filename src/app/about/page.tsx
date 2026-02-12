@@ -10,9 +10,9 @@ import { motion } from "framer-motion";
 import About from "@/components/About";
 
 export const metadata: Metadata = {
-  title: "About | Timur Garifullin",
+  title: "About | Timur",
   description:
-    "I'm an aspiring software engineer passionate about volunteering and using tech for positive change . I am a big fan of self-education, which is how I learned Web/Mobile Development and Robotics. I'm currently interested in Machine learning , and Cybersecurity . In my free time, I like to go rock climbing with friends and exersice in the gym.",
+    "Computer Science and Economics student building scalable systems at the intersection of engineering and business impact. Interested in machine learning, web development, and backend infrastructure, with experience shipping production applications. Outside of work, I enjoy rock climbing and training in the gym.",
 };
 
 export default function AboutPage() {
