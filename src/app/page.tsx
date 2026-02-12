@@ -18,18 +18,17 @@ export default function Home() {
         language (my native tongue)
       </p>
       <Paragraph className="max-w-xl mt-4">
-        I am a Computer Science and Economics student focused on building
-        scalable, real-world systems. I care about translating technical
-        decisions into measurable business impact and designing products that
-        create operational leverage.
+        I am a Computer Science and Economics student focused on data-driven
+        decision making and scalable problem solving. I care about translating
+        technical insights into measurable business impact and improving how
+        organizations operate.
       </Paragraph>
 
       <Paragraph className="max-w-xl mt-4">
-        My interests span <Highlight>machine learning</Highlight>,{" "}
-        <Highlight>web development</Highlight>, and backend infrastructure. I
-        enjoy taking ideas from first principles through production, with a
-        strong emphasis on performance, usability, and long-term
-        maintainability.
+        My interests span <Highlight>machine learning</Highlight> and{" "}
+        <Highlight>web development</Highlight>. I enjoy analyzing systems,
+        identifying inefficiencies, and building practical tools that support
+        forecasting, optimization, and better strategic decisions.
       </Paragraph>
 
       <Paragraph className="max-w-xl mt-4">
