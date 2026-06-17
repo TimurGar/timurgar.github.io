@@ -1,5 +1,56 @@
 export const products = [
   {
+    href: "https://web.archive.org/web/20260331060358/https://rali.coffee/",
+    title: "RALI",
+    description: 'Rali is a canned protein coffee brand delivering 20 grams of protein, electrolytes, and steady energy for an active lifestyle. As CTO, I designed and built the website and D2C sales pipeline that helped us sell out our first run of 5,000 cans in 32 days and land placements at Richmond-area retailers like Blanchard\'s and Libbie Market.',
+    thumbnail: "/images/rali-1.png",
+    images: [
+      "/images/rali-1.png",
+      "/images/rali-video.mp4",
+      "/images/rali-2.png",
+      "/images/rali-3.png",
+      "/images/rali-4.png",
+      "/images/rali-5.png",
+      "/images/rali-6.png",
+    ],
+    stack: ["HTML", "CSS", "JavaScript", "Shopify"],
+    slug: "rali",
+    robotics: false,
+    content: (
+      <div className="space-y-6">
+        <div>
+          <h3 className="text-lg md:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary mb-3">
+            About RALI
+          </h3>
+          <p className="text-sm lg:text-base font-normal text-secondary mb-3">
+            Rali is a canned protein coffee brand built to fuel an active lifestyle. Each can delivers 20 grams of protein, electrolytes, and 100 milligrams of caffeine, designed to hydrate rather than dehydrate.
+          </p>
+          <p className="text-sm lg:text-base font-normal text-secondary">
+            The brand launched under the tagline <span className="italic font-semibold">"Revive Your Drive,"</span> targeting people who want steady energy throughout their day.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-lg md:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary mb-3">
+            My Role
+          </h3>
+          <p className="text-sm lg:text-base font-normal text-secondary">
+            As CTO, I owned the technical side of the company end to end. I designed and built the Rali website from scratch and constructed the direct-to-consumer (D2C) sales pipeline that powered our launch.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-lg md:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary mb-3">
+            Market Impact
+          </h3>
+          <p className="text-sm lg:text-base font-normal text-secondary mb-3">
+            We sold out our first run of 5,000 cans in just 32 days, establishing strong market demand. The product is now stocked at leading Richmond-area retailers including Blanchard&apos;s, Libbie Market, Ginger Juice, Supper Club, and For the Love of Flour Bakery.
+          </p>
+        </div>
+      </div>
+    ),
+  },
+  {
     href: "https://getunify.vercel.app/",
     title: "Unify",
     description:
