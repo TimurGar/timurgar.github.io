@@ -7,48 +7,89 @@ import { Paragraph } from "./Paragraph";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
+const isVideo = (src: string) => /\.(mp4|webm|ogg)$/i.test(src);
+
 export const SingleProduct = ({ product }: { product: Product }) => {
   const [activeImage, setActiveImage] = useState(product.thumbnail);
   return (
     <div className="py-10">
-      <motion.div
-        initial={{
-          opacity: 0,
-          y: 30,
-        }}
-        animate={{
-          opacity: 1,
-          y: 0,
-        }}
-        transition={{
-          duration: 0.5,
-        }}
-        key={activeImage}
-        className="relative"
-      >
-        <Image
-          src={activeImage}
-          alt="thumbnail"
-          width={800}
-          height={0}
-          sizes="(max-width: 768px) 100vw, 800px"
-          className="rounded-md object-contain w-full h-auto max-h-[600px]"
-        />
-        <div className="absolute bottom-0 bg-white h-40 w-full [mask-image:linear-gradient(to_bottom,transparent,white)]" />
-      </motion.div>
+      {isVideo(activeImage) ? (
+        <div className="relative rounded-md overflow-hidden max-h-[600px]">
+          <video
+            src={activeImage}
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            className="w-full h-auto max-h-[600px] object-contain"
+          />
+        </div>
+      ) : (
+        <motion.div
+          initial={{
+            opacity: 0,
+            y: 30,
+          }}
+          animate={{
+            opacity: 1,
+            y: 0,
+          }}
+          transition={{
+            duration: 0.5,
+          }}
+          key={activeImage}
+          className="relative"
+        >
+          <Image
+            src={activeImage}
+            alt="thumbnail"
+            width={800}
+            height={0}
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="rounded-md object-contain w-full h-auto max-h-[600px]"
+          />
+          <div className="absolute bottom-0 bg-white h-40 w-full [mask-image:linear-gradient(to_bottom,transparent,white)]" />
+        </motion.div>
+      )}
       <div className="flex flex-row justify-center my-8 flex-wrap">
         {product.images.map((image, idx) => (
           <button
             onClick={() => setActiveImage(image)}
             key={`image-thumbnail-${idx}`}
           >
-            <Image
-              src={image}
-              alt="product thumbnail"
-              height="1000"
-              width="1000"
-              className="h-14 w-16 md:h-40 md:w-60 object-cover object-top mr-4 mb-r border rounded-lg border-neutral-100"
-            />
+            {isVideo(image) ? (
+              <div className="relative h-14 w-16 md:h-40 md:w-60 mr-4 mb-r border rounded-lg border-neutral-100 overflow-hidden">
+                <video
+                  src={image}
+                  preload="metadata"
+                  onLoadedMetadata={(e) => {
+                    e.currentTarget.currentTime = 0.1;
+                  }}
+                  className="h-full w-full object-cover"
+                />
+                <div className="absolute inset-0 flex items-center justify-center bg-black/30">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="white"
+                    className="w-6 h-6 md:w-8 md:h-8"
+                  >
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </div>
+              </div>
+            ) : (
+              <Image
+                src={image}
+                alt="product thumbnail"
+                height="1000"
+                width="1000"
+                className="h-14 w-16 md:h-40 md:w-60 object-cover object-top mr-4 mb-r border rounded-lg border-neutral-100"
+              />
+            )}
           </button>
         ))}
       </div>

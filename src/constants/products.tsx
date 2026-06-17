@@ -2,7 +2,8 @@ export const products = [
   {
     href: "https://web.archive.org/web/20260331060358/https://rali.coffee/",
     title: "RALI",
-    description: 'Rali is a canned protein coffee brand delivering 20 grams of protein, electrolytes, and steady energy for an active lifestyle. As CTO, I designed and built the website and D2C sales pipeline that helped us sell out our first run of 5,000 cans in 32 days and land placements at Richmond-area retailers like Blanchard\'s and Libbie Market.',
+    description:
+      "Rali is a canned protein coffee brand delivering 20 grams of protein, electrolytes, and steady energy for an active lifestyle. As CTO, I designed and built the website and D2C sales pipeline that helped us sell out our first run of 5,000 cans in 32 days and land placements at Richmond-area retailers like Blanchard's and Libbie Market.",
     thumbnail: "/images/rali-1.png",
     images: [
       "/images/rali-1.png",
@@ -23,10 +24,17 @@ export const products = [
             About RALI
           </h3>
           <p className="text-sm lg:text-base font-normal text-secondary mb-3">
-            Rali is a canned protein coffee brand built to fuel an active lifestyle. Each can delivers 20 grams of protein, electrolytes, and 100 milligrams of caffeine, designed to hydrate rather than dehydrate.
+            Rali is a canned protein coffee brand built to fuel an active
+            lifestyle. Each can delivers 20 grams of protein, electrolytes, and
+            100 milligrams of caffeine, designed to hydrate rather than
+            dehydrate.
           </p>
           <p className="text-sm lg:text-base font-normal text-secondary">
-            The brand launched under the tagline <span className="italic font-semibold">"Revive Your Drive,"</span> targeting people who want steady energy throughout their day.
+            The brand launched under the tagline{" "}
+            <span className="italic font-semibold">
+              &quot;Revive Your Drive,&quot;
+            </span>{" "}
+            targeting people who want steady energy throughout their day.
           </p>
         </div>
 
@@ -35,7 +43,9 @@ export const products = [
             My Role
           </h3>
           <p className="text-sm lg:text-base font-normal text-secondary">
-            As CTO, I owned the technical side of the company end to end. I designed and built the Rali website from scratch and constructed the direct-to-consumer (D2C) sales pipeline that powered our launch.
+            As CTO, I owned the technical side of the company end to end. I
+            designed and built the Rali website from scratch and constructed the
+            direct-to-consumer (D2C) sales pipeline that powered our launch.
           </p>
         </div>
 
@@ -44,7 +54,10 @@ export const products = [
             Market Impact
           </h3>
           <p className="text-sm lg:text-base font-normal text-secondary mb-3">
-            We sold out our first run of 5,000 cans in just 32 days, establishing strong market demand. The product is now stocked at leading Richmond-area retailers including Blanchard&apos;s, Libbie Market, Ginger Juice, Supper Club, and For the Love of Flour Bakery.
+            We sold out our first run of 5,000 cans in just 32 days,
+            establishing strong market demand. The product is now stocked at
+            leading Richmond-area retailers including Blanchard&apos;s, Libbie
+            Market, Ginger Juice, Supper Club, and For the Love of Flour Bakery.
           </p>
         </div>
       </div>
@@ -72,7 +85,10 @@ export const products = [
             About Unify
           </h3>
           <p className="text-sm lg:text-base font-normal text-secondary">
-            Unify is an AI-powered platform that streamlines how universities review, approve, and share campus events and announcements, reducing manual work and improving communication between the university and its students.
+            Unify is an AI-powered platform that streamlines how universities
+            review, approve, and share campus events and announcements, reducing
+            manual work and improving communication between the university and
+            its students.
           </p>
         </div>
       </div>
@@ -104,7 +120,8 @@ export const products = [
             About SpiderBytesV2
           </h3>
           <p className="text-sm lg:text-base font-normal text-secondary">
-            Modernized campus news & events email system for University of Richmond, now powered by AI and automation.
+            Modernized campus news & events email system for University of
+            Richmond, now powered by AI and automation.
           </p>
         </div>
       </div>
@@ -134,7 +151,8 @@ export const products = [
             About Wurm
           </h3>
           <p className="text-sm lg:text-base font-normal text-secondary">
-            Student-built marketplace for selling and exchanging course textbooks.
+            Student-built marketplace for selling and exchanging course
+            textbooks.
           </p>
         </div>
       </div>
@@ -161,7 +179,8 @@ export const products = [
             About Keeper
           </h3>
           <p className="text-sm lg:text-base font-normal text-secondary">
-            A web app for streamlining workflow & data management of personal projects.
+            A web app for streamlining workflow & data management of personal
+            projects.
           </p>
         </div>
       </div>
@@ -213,7 +232,10 @@ export const products = [
             About Autonomous Environment Mapper
           </h3>
           <p className="text-sm lg:text-base font-normal text-secondary">
-            The robot is built using an Arduino microcontroller, and programmed in C language. It is equipped with ultrasonic and color sensors to detect obstacles and navigate through its environment while simultaneously mapping the area.
+            The robot is built using an Arduino microcontroller, and programmed
+            in C language. It is equipped with ultrasonic and color sensors to
+            detect obstacles and navigate through its environment while
+            simultaneously mapping the area.
           </p>
         </div>
       </div>
@@ -241,7 +263,12 @@ export const products = [
             About FDM 3D Printers
           </h3>
           <p className="text-sm lg:text-base font-normal text-secondary">
-            I built three different 3D printers (with Scara, Hbot, CoreXY kinematics) from scratch using an Arduino microcontroller with RAMPS and programmed it in C language with the help of Marlin Open Source Library. The printers are capable of printing with different types of filament, and feature auto bed leveling and filament runout detection.
+            I built three different 3D printers (with Scara, Hbot, CoreXY
+            kinematics) from scratch using an Arduino microcontroller with RAMPS
+            and programmed it in C language with the help of Marlin Open Source
+            Library. The printers are capable of printing with different types
+            of filament, and feature auto bed leveling and filament runout
+            detection.
           </p>
         </div>
       </div>
