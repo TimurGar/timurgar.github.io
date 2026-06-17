@@ -66,9 +66,15 @@ export const products = [
     slug: "unify",
     robotics: false,
     content: (
-      <div>
-        {}
-        <p></p>{" "}
+      <div className="space-y-6">
+        <div>
+          <h3 className="text-lg md:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary mb-3">
+            About Unify
+          </h3>
+          <p className="text-sm lg:text-base font-normal text-secondary">
+            Unify is an AI-powered platform that streamlines how universities review, approve, and share campus events and announcements, reducing manual work and improving communication between the university and its students.
+          </p>
+        </div>
       </div>
     ),
   },
@@ -92,9 +98,15 @@ export const products = [
     slug: "spiderbytesv2",
     robotics: false,
     content: (
-      <div>
-        {}
-        <p></p>{" "}
+      <div className="space-y-6">
+        <div>
+          <h3 className="text-lg md:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary mb-3">
+            About SpiderBytesV2
+          </h3>
+          <p className="text-sm lg:text-base font-normal text-secondary">
+            Modernized campus news & events email system for University of Richmond, now powered by AI and automation.
+          </p>
+        </div>
       </div>
     ),
   },
@@ -116,9 +128,15 @@ export const products = [
     slug: "wurm",
     robotics: false,
     content: (
-      <div>
-        {}
-        <p></p>{" "}
+      <div className="space-y-6">
+        <div>
+          <h3 className="text-lg md:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary mb-3">
+            About Wurm
+          </h3>
+          <p className="text-sm lg:text-base font-normal text-secondary">
+            Student-built marketplace for selling and exchanging course textbooks.
+          </p>
+        </div>
       </div>
     ),
   },
@@ -137,9 +155,15 @@ export const products = [
     slug: "keeper",
     robotics: false,
     content: (
-      <div>
-        {}
-        <p></p>{" "}
+      <div className="space-y-6">
+        <div>
+          <h3 className="text-lg md:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary mb-3">
+            About Keeper
+          </h3>
+          <p className="text-sm lg:text-base font-normal text-secondary">
+            A web app for streamlining workflow & data management of personal projects.
+          </p>
+        </div>
       </div>
     ),
   },
@@ -158,9 +182,15 @@ export const products = [
     slug: "dtrack",
     robotics: false,
     content: (
-      <div>
-        {}
-        <p></p>{" "}
+      <div className="space-y-6">
+        <div>
+          <h3 className="text-lg md:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary mb-3">
+            About Dtrack
+          </h3>
+          <p className="text-sm lg:text-base font-normal text-secondary">
+            Mobile App for Personalized Exercise Tracking for Diabetic Health.
+          </p>
+        </div>
       </div>
     ),
   },
@@ -177,9 +207,15 @@ export const products = [
     slug: "robot",
     robotics: true,
     content: (
-      <div>
-        {}
-        <p></p>{" "}
+      <div className="space-y-6">
+        <div>
+          <h3 className="text-lg md:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary mb-3">
+            About Autonomous Environment Mapper
+          </h3>
+          <p className="text-sm lg:text-base font-normal text-secondary">
+            The robot is built using an Arduino microcontroller, and programmed in C language. It is equipped with ultrasonic and color sensors to detect obstacles and navigate through its environment while simultaneously mapping the area.
+          </p>
+        </div>
       </div>
     ),
   },
@@ -199,9 +235,15 @@ export const products = [
     slug: "printers",
     robotics: true,
     content: (
-      <div>
-        {}
-        <p></p>{" "}
+      <div className="space-y-6">
+        <div>
+          <h3 className="text-lg md:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary mb-3">
+            About FDM 3D Printers
+          </h3>
+          <p className="text-sm lg:text-base font-normal text-secondary">
+            I built three different 3D printers (with Scara, Hbot, CoreXY kinematics) from scratch using an Arduino microcontroller with RAMPS and programmed it in C language with the help of Marlin Open Source Library. The printers are capable of printing with different types of filament, and feature auto bed leveling and filament runout detection.
+          </p>
+        </div>
       </div>
     ),
   },
