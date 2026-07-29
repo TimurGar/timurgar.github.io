@@ -12,7 +12,7 @@ import About from "@/components/About";
 export const metadata: Metadata = {
   title: "About | Timur",
   description:
-    "Computer Science and Economics student focused on data-driven decision making, forecasting, and scalable problem solving. Interested in machine learning and web development, with experience building production applications and translating technical insights into measurable business impact. Outside of work, I enjoy rock climbing and training in the gym.",
+    "I design and build digital products that are intuitive, scalable, and purpose-driven, sitting at the intersection of design and development. With a background in software engineering, economics, and AI, I translate ideas into products that balance user experience, technical excellence, and business impact. Outside of work, I enjoy rock climbing and training in the gym.",
 };
 
 export default function AboutPage() {

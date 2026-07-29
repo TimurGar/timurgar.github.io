@@ -18,23 +18,29 @@ export default function Home() {
         language (my native tongue)
       </p>
       <Paragraph className="max-w-xl mt-4">
-        I am a Computer Science and Economics student focused on data-driven
-        decision making and scalable problem solving. I care about translating
-        technical insights into measurable business impact and improving how
-        organizations operate.
+        I design and build <Highlight>digital products</Highlight> that are{" "}
+        <Highlight>intuitive</Highlight>, <Highlight>scalable</Highlight>, and{" "}
+        <Highlight>purpose-driven</Highlight>. My work sits at the
+        intersection of <Highlight>design</Highlight> and{" "}
+        <Highlight>development</Highlight>, where I focus on creating
+        experiences that not only look great but also solve meaningful
+        problems.
       </Paragraph>
 
       <Paragraph className="max-w-xl mt-4">
-        My interests span <Highlight>machine learning</Highlight> and{" "}
-        <Highlight>web development</Highlight>. I enjoy analyzing systems,
-        identifying inefficiencies, and building practical tools that support
-        forecasting, optimization, and better strategic decisions.
+        With a background in <Highlight>software engineering</Highlight>,{" "}
+        <Highlight>economics</Highlight>, and <Highlight>AI</Highlight>, I
+        enjoy translating ideas into products that balance user experience,
+        technical excellence, and business impact. From{" "}
+        <Highlight>websites and web applications</Highlight> to{" "}
+        <Highlight>intelligent tools and automation</Highlight>, I believe
+        thoughtful design and clean engineering should work together.
       </Paragraph>
 
       <Paragraph className="max-w-xl mt-4">
-        Outside of work, I spend time <Highlight>rock climbing</Highlight> and
+        Outside of work, I enjoy <Highlight>rock climbing</Highlight> and
         training in the <Highlight>gym</Highlight>, activities that reinforce
-        discipline, resilience, and steady progress.
+        discipline, resilience, and continuous growth.
       </Paragraph>
 
       <Heading
