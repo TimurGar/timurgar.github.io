@@ -30,7 +30,7 @@ export const Sidebar = () => {
             animate={{ x: 0 }}
             transition={{ duration: 0.2, ease: "linear" }}
             exit={{ x: -200 }}
-            className="px-6  z-[100] py-10 bg-neutral-100 max-w-[14rem] lg:w-fit  fixed lg:relative  h-screen left-0 flex flex-col justify-between"
+            className="px-6  z-[100] py-6 pb-10 bg-neutral-100   fixed lg:relative  h-screen left-0 flex flex-col justify-between"
           >
             <div className="">
               <SidebarHeader />
@@ -111,17 +111,17 @@ export const Navigation = ({
 
 const SidebarHeader = () => {
   return (
-    <div className="flex space-x-2">
+    <div className="flex flex-col space-y-4">
       <Image
-        src="/images/me-colorado-square.jpg"
+        src="/images/me-linkedin-cropped.jpg"
         alt="Avatar"
-        height="40"
-        width="40"
-        className="object-cover object-top rounded-full flex-shrink-0"
+        height="200"
+        width="200"
+        className="object-cover object-top rounded-xl flex-shrink-0 w-full max-w-[200px] aspect-square"
       />
-      <div className="flex text-sm flex-col">
-        <p className="font-bold text-primary">Timur Garifullin</p>
-        <p className="font-light text-secondary">UR Student</p>
+      <div className="flex  flex-col">
+        <p className="font-bold text-md text-primary">Timur Garifullin</p>
+        <p className="font-light text-sm text-secondary">Dev + Design</p>
       </div>
     </div>
   );
