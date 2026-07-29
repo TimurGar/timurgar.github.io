@@ -26,10 +26,10 @@ export const Sidebar = () => {
       <AnimatePresence>
         {open && (
           <motion.div
-            initial={{ x: -200 }}
+            initial={{ x: "-100%" }}
             animate={{ x: 0 }}
             transition={{ duration: 0.2, ease: "linear" }}
-            exit={{ x: -200 }}
+            exit={{ x: "-100%" }}
             className="px-6  z-[100] py-6 pb-10 bg-neutral-100   fixed lg:relative  h-screen left-0 flex flex-col justify-between"
           >
             <div className="">
